@@ -110,7 +110,7 @@ The CDNMaster does not belong to any partition and it’s the responsible of:
 # Conclusions
 Thanks to using the Akka framework and the abstraction Actor Model, we have reduced the complexity and difficulty implied in dealing with threads and sockets. Moreover, the use of the Actor Model has led our thoughts towards a new model of abstraction for designing distributed and concurrent applications.
 
-We have designed the architecture of the code and system taking into account their reusability and flexibility making it capable of represent different system topologies or behaviours among each layer.
+We have designed the architecture of the code and system taking into account their reusability and flexibility making it capable of representing different system topologies or behaviours among each layer.
 
 # References
 
