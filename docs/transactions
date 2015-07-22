@@ -1,0 +1,15 @@
+{"id": 1, "operations": [{"type": 2, "new": "a"}, {"type": 1, "to": "a", "op": "=", "value": 2}], "idPart": 0}
+{"id": 2, "operations": [{"type": 0, "from": "a"}, {"type": 1, "to": "a", "op": "=", "value": 5}], "idPart": 0}
+{"id": 3, "operations": [{"type": 0, "from": "a"}, {"type": 2, "new": "b"}, {"type": 0, "from": "b"}], "idPart": 0}
+{"id": 4, "operations": [{"type": 0, "from": "b"}, {"type": 1, "to": "b", "op": "=", "value": 3}, {"type": 0, "from": "b"}], "idPart": 0}
+{"id": 5, "operations": [{"type": 1, "to": "a", "op": "+", "value": 2}], "idPart": 0}
+{"id": 6, "operations": [{"type": 1, "to": "a", "op": "+", "value": 2}], "idPart": 0}
+{"id": 7, "operations": [{"type": 1, "to": "a", "op": "-", "value": 5}], "idPart": 0}
+{"id": 8, "operations": [{"type": 1, "to": "a", "op": "+", "value": 2}], "idPart": 0}
+{"id": 9, "operations": [{"type": 1, "to": "a", "op": "+", "value": 2}], "idPart": 0}
+{"id": 10, "operations": [{"type": 1, "to": "b", "op": "+", "value": 2}], "idPart": 0}
+{"id": 11, "operations": [{"type": 1, "to": "a", "op": "+", "value": 2}], "idPart": 0}
+{"id": 12, "operations": [{"type": 1, "to": "a", "op": "+", "value": 2}], "idPart": 0}
+{"id": 13, "operations": [{"type": 1, "to": "b", "op": "+", "value": 2}], "idPart": 0}
+{"id": 14, "operations": [{"type": 0, "from": "b"}], "idPart": 1}
+{"id": 15, "operations": [{"type": 0, "from": "b"}], "idPart": 2}
