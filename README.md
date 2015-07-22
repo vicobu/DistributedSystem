@@ -4,7 +4,7 @@ This is a college exercise proposed by PhD Joan Navarro Marín [1].
 
 We must design and implement a distributed application that is able to replicate data in an epidemic way [2] in order to achieve a multi-versioned architecture similar to the following figure:
 
-[Epidemia Image]
+![Epidemia](https://github.com/vicobu/DistrubtedSystem/blob/master/images/ex_img1.png)
 
 The system should be like the one in the figure X which have 7 nodes and 3 layers. The
 characteristics of the system are as follows:
@@ -16,7 +16,7 @@ characteristics of the system are as follows:
 5. Each node must have a local text file that logs every version of the transaction.
 6. The clients send transactions from a local file.
 
-[Figure X]
+![Architecture](https://github.com/vicobu/DistrubtedSystem/blob/master/images/ex_img2.png)
 
 We could have used our knowledge in Java but, as we wanted to develop a flexible and extensible system, we felt that Java was very limiting in providing enough abstractions to build the desired system. Also, we wanted to develop a system capable of being deployed in a distributed environment and, once again, Java was very limiting in this aspect.
 Searching the Internet, we started to hear whispers of the Akka framework for building distributed applications. We took a look and we started to love it. Although Akka can be used from Java and/or Scala, we decided that it was a good opportunity to learn a new language (or part of it) so we engaged the Scala approach.
@@ -87,7 +87,8 @@ We developed a mini-DSL, the following code samples show its semantics:
 ## CoreNode - PortNode Architecture
 In the following diagram we can see a sketch of the architecture:
  
-[Diagram Image]
+![Sketch](https://github.com/vicobu/DistrubtedSystem/blob/master/images/node_diag.png)
+
  
 The circles represent a CoreNode, the smallest rectangles represent a PortNode, the green ones are port nodes in the between nodes of the same partition; the blue ones between partitions, the arrows represent connections between ports.
 
