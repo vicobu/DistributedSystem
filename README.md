@@ -1,3 +1,9 @@
+# Authors
+
+![vicaba](https://github.com/vicaba "@vicaba")
+![xadobu](https://github.com/xadobu "@xadobu")
+
+
 # Motivation
 
 This is a college exercise proposed by PhD Joan Navarro Marín [1].
