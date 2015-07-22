@@ -1,8 +1,8 @@
 # Authors
 
-![vicaba](https://github.com/vicaba "vicaba")
+* [vicaba](https://github.com/vicaba "vicaba")
 
-![xadobu](https://github.com/xadobu "xadobu")
+* [xadobu](https://github.com/xadobu "xadobu")
 
 
 # Motivation
