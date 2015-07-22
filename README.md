@@ -1,13 +1,13 @@
 # Authors
 
-![vicaba](https://github.com/vicaba "@vicaba")
+![vicaba](https://github.com/vicaba "vicaba")
 
-![xadobu](https://github.com/xadobu "@xadobu")
+![xadobu](https://github.com/xadobu "xadobu")
 
 
 # Motivation
 
-This is a college exercise proposed by PhD Joan Navarro Marín [1].
+This is a college exercise proposed by PhD Joan Navarro Martín [1].
 
 We must design and implement a distributed application that is able to replicate data in an epidemic way [2] in order to achieve a multi-versioned architecture similar to the following figure:
 
