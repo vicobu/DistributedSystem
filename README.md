@@ -7,7 +7,7 @@
 
 # Motivation
 
-This is a college exercise proposed by PhD Joan Navarro Martín [1].
+This is a college exercise proposed by Ph.D. Joan Navarro Martín [1].
 
 We must design and implement a distributed application that is able to replicate data in an epidemic way [2] in order to achieve a multi-versioned architecture similar to the following figure:
 
@@ -77,7 +77,7 @@ We developed a mini-DSL, the following code samples show its semantics:
     cdnMasterNode ! AddNode(nodeA1, 0, AddNode.WriteMode)
 ```
 
-* In order to tell to the CDNMaster that it have to create connections between two nodes we will use:
+* In order to tell to the CDNMaster that it has to create connections between two nodes we will use:
 ```scala
     cdnMasterNode ! RequestNodeConnection(
       (nodeA1, PortNode.portOf(new PortNode with Active with Eager), Nil),
